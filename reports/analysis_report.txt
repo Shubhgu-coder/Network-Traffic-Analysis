@@ -1,0 +1,113 @@
+
+========================================
+       NETWORK TRAFFIC ANALYSIS
+========================================
+
+Project: Network Traffic Analysis
+Date: 13-11-2026 13:37:55
+
+PACKET STATISTICS
+----------------------------------------
+
+Total Packets: 2751669
+
+TCP Packets: 2643027
+UDP Packets: 107495
+DNS Packets: 4167
+
+IPv4 Packets: 2520531
+IPv6 Packets: 230730
+
+
+TOP 10 SOURCE IP ADDRESSES:
+10.92.186.222: 1114514 packets
+4.240.189.76: 1073508 packets
+74.224.107.133: 250532 packets
+49.44.50.18: 39249 packets
+49.44.50.8: 35854 packets
+10.92.186.184: 2175 packets
+172.198.95.201: 1907 packets
+172.64.148.235: 328 packets
+135.232.92.97: 308 packets
+20.247.185.124: 179 packets
+
+TOP 10 DESTINATION IP ADDRESSES:
+10.92.186.222: 1405915 packets
+4.240.189.76: 964505 packets
+74.224.107.133: 110053 packets
+49.44.50.18: 17636 packets
+49.44.50.8: 16175 packets
+10.92.186.184: 2116 packets
+172.198.95.201: 921 packets
+135.232.92.97: 275 packets
+172.64.148.235: 250 packets
+255.255.255.255: 190 packets
+
+
+
+TOP 10 SOURCE PORTS:
+Port 80: 1403366 packets
+Port 53057: 339902 packets
+Port 53059: 315696 packets
+Port 443: 142651 packets
+Port 61364: 94323 packets
+Port 53060: 82057 packets
+Port 57500: 45222 packets
+Port 57501: 43180 packets
+Port 61516: 30151 packets
+Port 61517: 24348 packets
+
+TOP 10 DESTINATION PORTS:
+Port 80: 1110745 packets
+Port 53057: 375009 packets
+Port 53059: 353311 packets
+Port 61364: 106075 packets
+Port 53060: 92013 packets
+Port 443: 79219 packets
+Port 61516: 65996 packets
+Port 61517: 52473 packets
+Port 57500: 49271 packets
+Port 57501: 47677 packets
+
+
+
+SUSPICIOUS TRAFFIC INDICATORS:
+IP: 10.92.186.222 | Packets: 1114514 | Status: Requires investigation
+IP: 74.224.107.133 | Packets: 250532 | Status: Requires investigation
+IP: 4.240.189.76 | Packets: 1073508 | Status: Requires investigation
+
+
+
+UNUSUAL PORT ACTIVITY:
+Port 53057: 375009 packets | Status: Review required
+Port 53059: 353311 packets | Status: Review required
+Port 61364: 106075 packets | Status: Review required
+Port 53060: 92013 packets | Status: Review required
+Port 61516: 65996 packets | Status: Review required
+Port 61517: 52473 packets | Status: Review required
+Port 57500: 49271 packets | Status: Review required
+Port 57501: 47677 packets | Status: Review required
+Port 64436: 47070 packets | Status: Review required
+Port 61521: 36690 packets | Status: Review required
+Port 61520: 31647 packets | Status: Review required
+Port 58408: 30750 packets | Status: Review required
+Port 58411: 27352 packets | Status: Review required
+Port 61502: 25828 packets | Status: Review required
+Port 57576: 20928 packets | Status: Review required
+Port 61501: 19999 packets | Status: Review required
+Port 53077: 19776 packets | Status: Review required
+Port 53076: 14864 packets | Status: Review required
+Port 60309: 6402 packets | Status: Review required
+Port 49263: 4981 packets | Status: Review required
+
+
+
+SECURITY ANALYSIS SUMMARY:
+IPs requiring review: 3
+Ports requiring review: 47
+Note: These are automated indicators, not confirmed attacks.
+
+
+========================================
+       ANALYSIS COMPLETED
+========================================
